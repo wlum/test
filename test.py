@@ -1,7 +1,4 @@
-def multiply(x, y):
-    return x*y
+from mymath import multiply 
 
-first = int(input("Please enter the first number: "))
-second = int(input("Please enter the second number: "))
-
-print(multiply(first,second))
+print("Running test")
+print(multiply(5,7))
